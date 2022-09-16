@@ -48,6 +48,10 @@
 		<GoogleServicesJson Include="google-services.json" />
 	</ItemGroup>
 
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-ios'">
+		<BundleResource Include="GoogleService-Info.plist" />
+	</ItemGroup>
+
 	<ItemGroup>
 	  <PackageReference Include="Plugin.Firebase" Version="1.2.0" />
 	</ItemGroup>
