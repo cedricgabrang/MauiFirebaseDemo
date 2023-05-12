@@ -53,7 +53,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Plugin.Firebase" Version="1.2.0" />
+	  <None Remove="Platforms\Android\Resources\values\strings.xml" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-ios' OR '$(TargetFramework)' == 'net6.0-android'">
+		<PackageReference Include="Plugin.Firebase" Version="2.0.3" />
+		<PackageReference Include="Plugin.Firebase.Crashlytics" Version="2.0.1" />
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-android'">
