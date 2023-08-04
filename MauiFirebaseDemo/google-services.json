@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "236909512287",
-    "project_id": "mauifirebasedemo-4c3c5",
-    "storage_bucket": "mauifirebasedemo-4c3c5.appspot.com"
+    "project_number": "141891705795",
+    "project_id": "mauifirebasedemo-3a0d0",
+    "storage_bucket": "mauifirebasedemo-3a0d0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:236909512287:android:dfc7a92f34222ce1aebdea",
+        "mobilesdk_app_id": "1:141891705795:android:139fa3599a3ddb5140fb76",
         "android_client_info": {
           "package_name": "com.cedricgabrang.mauifirebasedemo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "236909512287-mlnj93ap3c8ionkh5rn386ltq9lgdar7.apps.googleusercontent.com",
+          "client_id": "141891705795-d7cebasa152b2onbmafkf1re5876c1a6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyASGuV6ySeE_RGPSVOLyt1Ok8x6QiDJPe8"
+          "current_key": "AIzaSyA7h57GrcQg17SAfu0MREzlZZjAf2Lszpk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "236909512287-mlnj93ap3c8ionkh5rn386ltq9lgdar7.apps.googleusercontent.com",
+              "client_id": "141891705795-d7cebasa152b2onbmafkf1re5876c1a6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
